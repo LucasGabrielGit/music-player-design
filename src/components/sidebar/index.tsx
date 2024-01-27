@@ -5,7 +5,7 @@ import { ClipboardIcon } from "@radix-ui/react-icons"
 
 export const SidebarMenu = () => {
   return (
-    <aside className="flex p-2 flex-col justify-between items-center">
+    <aside className="flex p-2 flex-col justify-between items-center w-18">
       <div className='flex flex-col items-center gap-[.9rem] mt-3'>
         <Button asChild variant={'outline'} size={'icon'} className='border-0 p-1 bg-transparent hover:text-white hover:bg-green-600 duration-200'>
           <Cylinder className='w-10 text-green-600' />

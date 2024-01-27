@@ -1,5 +1,7 @@
+import { MusicPlayer } from "./components/player"
 import { SidebarMenu } from "./components/sidebar"
 import { Suggestions } from "./components/suggestions"
+import { TrackList } from "./components/tracklist"
 
 function App() {
 
@@ -8,6 +10,8 @@ function App() {
       <main className='flex flex-1'>
         <SidebarMenu />
         <Suggestions />
+        <MusicPlayer />
+        <TrackList />
       </main>
     </div>
   )
